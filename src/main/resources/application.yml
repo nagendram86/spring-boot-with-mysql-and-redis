@@ -1,0 +1,19 @@
+#spring:
+#  datasource:
+#    username: root
+#    password: password
+#    #    url: jdbc:mysql://192.168.0.101:3406/blog
+#    url: jdbc:mysql://localhost:3304/employees?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#        ddl-auto: none
+#        naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+#    show-sql: true
+#    database: mysql
+#
+#  redis:
+#    host: localhost
+#    port: 6379
